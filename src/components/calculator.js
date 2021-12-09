@@ -44,7 +44,7 @@ class Calculator extends Component {
           <InputButton value="7" className="c-btn" click={handleCursor} />
           <InputButton value="8" className="c-btn" click={handleCursor} />
           <InputButton value="9" className="c-btn" click={handleCursor} />
-          <InputButton value="X" className="c-btn orange" click={handleCursor} />
+          <InputButton value="x" className="c-btn orange" click={handleCursor} />
           <InputButton value="4" className="c-btn" click={handleCursor} />
           <InputButton value="5" className="c-btn" click={handleCursor} />
           <InputButton value="6" className="c-btn" click={handleCursor} />
