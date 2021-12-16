@@ -8,9 +8,9 @@ class InputButton extends Component {
   }
 
   render() {
-    const { value, click } = this.props;
+    const { value, click, className } = this.props;
     return (
-      <button type="button" className="c-btn" onClick={click}>
+      <button type="button" className={className} onClick={click}>
         {value}
       </button>
     );
@@ -20,10 +20,12 @@ class InputButton extends Component {
 InputButton.propTypes = {
   value: PropTypes.string,
   click: PropTypes.func.isRequired,
+  className: PropTypes.string,
 };
 
 InputButton.defaultProps = {
   value: '',
+  className: '',
 };
 
 export default InputButton;

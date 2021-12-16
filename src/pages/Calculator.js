@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import InputButton from './input';
+import InputButton from '../components/input';
 import calculate from '../logic/calculate';
 import '../index.css';
 
@@ -30,6 +30,9 @@ const Calculator = () => {
   };
   return (
     <div className="main-container">
+      <div className="calculator-do">
+        <p>Let&apos;s do some mathematics</p>
+      </div>
       <div className="display">{display()}</div>
       <div className="calculator-btn">
         <InputButton value="AC" className="c-btn" click={handleCursor} />
