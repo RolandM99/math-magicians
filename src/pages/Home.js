@@ -5,17 +5,22 @@ const Home = () => (
     <div className="home">
       <h1>Welcome to Our Page!</h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet esse
-        aperiam reprehenderit repudiandae quod vitae? Eius perspiciatis expedita
-        porro quos accusamus odio non, consequatur provident enim, assumenda
-        distinctio aperiam dolores.
+        Mathematics are the result of mysterious powers which no one understands,
+        and which the unconscious recognition of beauty must play an important part.
+        Out of an infinity of designs a mathematician chooses one pattern for
+        beauty’s sake and pulls it down to earth.
       </p>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet esse
-        aperiam reprehenderit repudiandae quod vitae? Eius perspiciatis expedita
-        porro quos accusamus odio non, consequatur provident enim, assumenda
-        distinctio aperiam dolores.
+        Mathematics as an expression of the human mind reflects the active will,
+        the contemplative reason, and the desire for aesthetic perfection.
+        Its basic elements are logic and intuition, analysis and construction,
+        generality and individuality.
       </p>
+      <p>
+        It is impossible to be a mathematician without being a poet in soul&#128525;
+      </p>
+      <br />
+      <p>Let&apos;s have fun with Math-Magician&#128513;&#128517;</p>
     </div>
   </>
 );

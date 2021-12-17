@@ -31,7 +31,7 @@ const Calculator = () => {
   return (
     <div className="main-container">
       <div className="calculator-do">
-        <p>Let&apos;s do some mathematics</p>
+        <p>Let&apos;s do some mathematics!</p>
       </div>
       <div className="display">{display()}</div>
       <div className="calculator-btn">
