@@ -2,10 +2,12 @@ import React from 'react';
 
 const Quotes = () => (
   <div className="quotes">
-    <p>
-      The only way to learn Mathematics, is to do mathematics
-    </p>
-    <strong>~ PAUL HALMOS</strong>
+    <blockquote>
+      Mathematics has beauty and romance. It’s not a boring place to be,
+      the mathematical world. It’s an extraordinary place;
+      it’s worth spending time there.
+    </blockquote>
+    <strong>~ Marcus du Sautoy</strong>
   </div>
 );
 
