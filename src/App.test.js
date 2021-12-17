@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import App from './App';
-import Calculator from './pages/calculator';
+import Calculator from './pages/Calculator';
 import Quote from './pages/Quotes';
 import Home from './pages/Home';
 
