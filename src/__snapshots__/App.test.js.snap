@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking of the sentence Math Magician 1`] = `
+<h1>
+  Math Magician
+</h1>
+`;
+
+exports[`change screen when we click in the navbar on Calculator 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="calculator-do"
+  >
+    <p>
+      Let's do some mathematics!
+    </p>
+  </div>
+  <div
+    className="display"
+  >
+    0
+  </div>
+  <div
+    className="calculator-btn"
+  >
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="c-btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="c-btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="c-btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="c-btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="c-btn double"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="c-btn"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="c-btn orange"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`change screen when we click in the navbar on Home 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    Welcome to Our Page!
+  </h1>
+  <p>
+    Mathematics are the result of mysterious powers which no one understands, and which the unconscious recognition of beauty must play an important part. Out of an infinity of designs a mathematician chooses one pattern for beauty’s sake and pulls it down to earth.
+  </p>
+  <p>
+    Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction, generality and individuality.
+  </p>
+  <p>
+    It is impossible to be a mathematician without being a poet in soul😍
+  </p>
+  <br />
+  <p>
+    Let's have fun with Math-Magician😁😅
+  </p>
+</div>
+`;
+
+exports[`change screen when we click in the navbar on Quotes 1`] = `
+<div
+  className="quotes"
+>
+  <blockquote>
+    Mathematics has beauty and romance. It’s not a boring place to be, the mathematical world. It’s an extraordinary place; it’s worth spending time there.
+  </blockquote>
+  <strong>
+    ~ Marcus du Sautoy
+  </strong>
+</div>
+`;
+
+exports[`renders learn react link 1`] = `
+<h1>
+  Math Magician
+</h1>
+`;
