@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: linear-gradient(to bottom, rgba(49, 45, 42, 0.8) 0%, rgba(36, 29, 24, 0.8) 100%), url("/src/assets/img/work.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.navbar {
+  background-color: #858694;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+#nav {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
+
+#nav:hover {
+  color: white;
+}
+
+.calculator-do {
+  text-align: center;
+  width: 700px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.calculator-do p {
+  text-align: left;
+  margin-left: 80px;
+}
+
+.my-quotes {
+  height: 700px;
+  background-image: linear-gradient(to bottom, rgba(49, 45, 42, 0.8) 0%, rgba(36, 29, 24, 0.8) 100%), url("/src/assets/img/background.jpg");
+  background-position-x: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.quotes {
+  color: white;
+  position: static;
+  text-align: center;
+  margin-top: 190px;
+  font-size: 20px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.home {
+  background-color: #f5913e;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  box-shadow: 5px 5px 15px 5px black;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  top: 70px;
+}
+
+.home p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #9b4906;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+  margin: 4rem auto;
+}
+
+.display {
+  font-size: 45px;
+  text-align: right;
+  background-color: #858694;
+  color: white;
+  padding: 2rem;
+}
+
+.my-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator-btn {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.c-btn {
+  width: 7rem;
+  height: 76px;
+  font-size: 24px;
+  background-color: #cccbcb;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.orange {
+  background-color: #f5913e;
+}
+
+.double {
+  width: 14rem;
+}
+
+@media screen and (max-width: 780px) {
+  .my-menu {
+    flex-direction: column;
+  }
+
+  .calculator-do p {
+    text-align: center;
+    margin-left: 20px;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 782px) and (max-width: 1150px) {
+  .calculator-do {
+    width: 400px;
+  }
+}
