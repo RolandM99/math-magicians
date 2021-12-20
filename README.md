@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[In progress]()
+[Live link](https://math-magic.netlify.app/)
 
 # Getting Started
 
