@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   margin: 0;
   font-family:
     -apple-system,
@@ -16,13 +17,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  background: linear-gradient(to bottom, rgba(49, 45, 42, 0.8) 0%, rgba(36, 29, 24, 0.8) 100%), url("/src/assets/img/work.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+#root {
+  width: 100%;
+  margin: 0;
 }
 
 .navbar {
+  width: 100%;
   background-color: #858694;
   display: flex;
   justify-content: space-around;
@@ -48,25 +49,28 @@ html {
 }
 
 .calculator-do {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  width: 700px;
+  justify-content: center;
   font-size: 24px;
   font-weight: 600;
-  margin-top: 40px;
+  margin: auto;
 }
 
 .calculator-do p {
-  text-align: left;
-  margin-left: 80px;
+  width: auto;
+  margin: 0;
 }
 
 .my-quotes {
-  height: 700px;
+  display: flex;
+  justify-content: center;
+  height: 800px;
   background-image: linear-gradient(to bottom, rgba(49, 45, 42, 0.8) 0%, rgba(36, 29, 24, 0.8) 100%), url("/src/assets/img/background.jpg");
   background-position-x: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  position: absolute;
 }
 
 .quotes {
@@ -92,6 +96,12 @@ blockquote {
   position: relative;
   text-align: center;
   top: 70px;
+}
+
+.my-home {
+  background: linear-gradient(rgba(49, 45, 42, 0.8) 0%, rgba(36, 29, 24, 0.8) 100%), url("/src/assets/img/work.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
 }
 
 .home p {
@@ -121,8 +131,12 @@ h1 {
 }
 
 .my-menu {
+  background: linear-gradient(rgba(49, 45, 42, 0.8) 0%, rgba(36, 29, 24, 0.8) 100%), url("/src/assets/img/work.jpg");
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .calculator-btn {
@@ -148,20 +162,18 @@ h1 {
   width: 14rem;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
   .my-menu {
-    flex-direction: column;
+    flex-direction: row;
+  }
+
+  .calculator-do {
+    margin-top: 50px;
+    width: 40%;
   }
 
   .calculator-do p {
     text-align: center;
-    margin-left: 20px;
     width: 90%;
-  }
-}
-
-@media screen and (min-width: 782px) and (max-width: 1150px) {
-  .calculator-do {
-    width: 400px;
   }
 }
